@@ -9,7 +9,9 @@ const AuthProvider = ({children}) => {
 
 
 
-    const authinfo = {user}
+    const authinfo = {user: 'helloo auth'}
+    console.log(authinfo);
+
     return (
         <AuthContext.Provider value={authinfo}>
             {children}

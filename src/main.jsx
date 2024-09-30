@@ -9,7 +9,8 @@ import Root from './Root/Root';
 import Home from './Components/Home';
 import Signup from './Components/Signup';
 import Login from './Components/Login';
-import AuthProvider, { AuthContext } from './Providers/AuthProvider';
+import AuthProvider from './Providers/AuthProvider';
+
 
 const router = createBrowserRouter([
   {
